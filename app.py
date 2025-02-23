@@ -3,7 +3,11 @@ import requests
 
 app = Flask(__name__)
 
-@app.route('/rss')
+@app.route('/health')
+def health_check():
+    return "OK", 200
+
+@app.route('/kneset')
 def get_rss():
     url = 'https://main.knesset.gov.il/News/PressReleases/_layouts/15/listfeedKns.aspx'
     params = {
