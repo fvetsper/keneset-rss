@@ -55,7 +55,7 @@ def get_rss():
     
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0',
-        'Cookie': 'dLnSUL1UgeZ1Io1tcLAc2EnfIoQBVidSnh6/ax65Vmx9eCAQwrH8tl/JVTprte0auwaefcLDtjMfxRc67fcUw7OxprhjIvQQy+hmrutdV1NwYc60xAMTMJbct55yNbOAeTrsSbapRiAlkN/1TZTDZZO8hqmFkpkSrWeHEjNkMDGqctube9JswOGb8pJiOk2us6Zbw/92bih8UtE+69oC6TAOYP0_'
+        'Cookie': 'rbzid=dLnSUL1UgeZ1Io1tcLAc2EnfIoQBVidSnh6/ax65Vmx9eCAQwrH8tl/JVTprte0auwaefcLDtjMfxRc67fcUw7OxprhjIvQQy+hmrutdV1NwYc60xAMTMJbct55yNbOAeTrsSbapRiAlkN/1TZTDZZO8hqmFkpkSrWeHEjNkMDGqctube9JswOGb8pJiOk2us6Zbw/92bih8UtE+69oC6TAOYP0_'
     }
     
     try:
