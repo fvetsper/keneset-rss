@@ -17,10 +17,6 @@ def should_fetch_ynet():
 def health_check():
     return "OK", 200
 
-@app.route('/')
-def health_check():
-    return "OK", 200
-
 @app.route('/ynet')
 def get_ynet_rss():
     if should_fetch_ynet():
